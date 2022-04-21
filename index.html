@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta http-equiv="content-language" content="pt"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<title>CMS</title>
+		<link href="http://www.buscaonibus.com.br/site2013/css/bootstrap.min.css" rel="stylesheet" media="screen"></link>
+		<link type="text/css" href="http://www.buscaonibus.com.br/css/admin/style.css" rel="stylesheet" />
+	    <meta charset="utf-8">
+	</head>
+	<body>
+		<nav class="bo-navbar navbar navbar-default navbar-static-top" role="navigation">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/cms">CMS</a>
+			</div>
+		</nav>
+
+		<div class="bo-container-fixed container-fixed">			<div class=row>
+				<div class="col-md-12">
+					<div>
+						<input type="text" class="form-control" id="bo_city_handler_nameFilter" placeholder="Filtrar pelo Nome">
+						<button type="submit" id="searchBtn">Pesquisar</button>
+					</div>
+					<table id="bo_city_handler_table" class="table table-hover table-striped tablesorter">
+							<thead>
+								<tr>
+									<th>Key</th>
+									<th>Nome</th>
+									<th>State</th>
+									<th>Visível</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+
+								<tr>
+									<td>key_abadiania</td>
+									<td>Abadiânia</td>
+									<td>GO</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+								<tr>
+									<td>key_belem</td>
+									<td>Belém</td>
+									<td>PA</td>
+									<td class='bo_visible_false'>False</td>
+								</tr>
+								<tr>
+									<td>key_belo-horizonte</td>
+									<td>Belo Horizonte</td>
+									<td>MG</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+								<tr>
+									<td>key_campinas</td>
+									<td>Campinas</td>
+									<td>SP</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+								<tr>
+									<td>key_diamantina</td>
+									<td>Diamantina</td>
+									<td>MG</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+								<tr>
+									<td>key_foz-do-iguacu</td>
+									<td>Foz do Iguaçu</td>
+									<td>PR</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+								<tr>
+									<td>key_fraiburgo</td>
+									<td>Fraiburgo</td>
+									<td>SC</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+								<tr>
+									<td>key_franca</td>
+									<td>Franca</td>
+									<td>SP</td>
+									<td class='bo_visible_false'>False</td>
+								</tr>
+								<tr>
+									<td>key_goiania</td>
+									<td>Goiânia</td>
+									<td>GO</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+								<tr>
+									<td>key_novo-hamburgo</td>
+									<td>Novo Hamburgo</td>
+									<td>RS</td>
+									<td class='bo_visible_false'>False</td>
+								</tr>
+								<tr>
+									<td>key_rio-de-janeiro</td>
+									<td>Rio de Janeiro</td>
+									<td>RJ</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+								<tr>
+									<td>key_sao-paulo</td>
+									<td>São Paulo</td>
+									<td>SP</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+								<tr>
+									<td>key_sao-sebastiao</td>
+									<td>São Sebastião</td>
+									<td><strong>Falta</strong></td>
+									<td class='bo_visible_false'>False</td>
+								</tr>
+								<tr>
+									<td>key_volta-redonda</td>
+									<td>Volta Redonda</td>
+									<td>RJ</td>
+									<td class='bo_visible_true'>True</td>
+								</tr>
+							</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="main.js"></script>
+		<style type="text/css">
+			.bo_visible_true {
+				background-color: #ccffcc !important;
+			}
+			.bo_visible_false {
+				background-color: #ffcccc !important;
+			}
+		</style>
+	</body>
+</html>
